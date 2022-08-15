@@ -1,0 +1,84 @@
+.banner{
+    padding: 18rem 0;
+    background-image: linear-gradient(rgba(0, 0, 0,0.7),rgba(3, 28, 34, 0.95)), url("../../image/banner/mechanical-banner.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-user-img{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0 0 1rem rgba(255, 255, 255,0.5);
+    overflow: hidden;
+    margin-bottom: 5rem;
+    background-image: linear-gradient(125deg,rgb(53, 53, 53),rgb(2, 23, 33));
+}
+
+.banner-user-img img{
+    width: 100%;
+    transform: scale(0.9);
+}
+
+.banner-text{
+    text-align: center;
+}
+
+.banner-text p{
+    color: #fff;
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.banner-text p span{
+    color: #e1cba4;
+}
+
+.banner-text h1{
+    font-size: 4rem;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-bottom: 2.5rem;
+    font-family: 'Merienda', cursive;
+}
+
+.banner-text h1 span{
+    color: #95bbc5;
+}
+
+.banner-text h3{
+    font-family: 'Poppins', sans-serif; 
+    font-style: italic;
+    font-size: 1.8rem;
+    color: #b1b1b1;
+    letter-spacing: 2px;
+}
+
+/* ====================================== */
+
+@media (max-width:740px){
+    .banner-user-img{
+        width: 20rem;
+        height: 20rem;
+    }
+}
+
+@media (max-width:420px){
+    .banner{
+        padding: 20rem 1.5rem;
+    }
+    .banner-text h1{
+        font-size: 3rem;
+    }
+}

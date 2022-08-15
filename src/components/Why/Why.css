@@ -1,0 +1,42 @@
+.section-why{
+    background-image: linear-gradient(125deg,#000000cc,#515353f2), url("../../image/why-banner.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15rem 0;
+}
+
+.why-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    gap: 5rem;
+}
+
+.why-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1a1c21;
+    padding:5rem 3rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 2rem rgba(255, 255, 255,0.3);
+}
+
+.why-logo{
+    color: #fff;
+    font-size: 5rem;
+    margin-bottom: 1.5rem;
+}
+
+.why-item p{
+    font-size: 2rem;
+    color: #939393;
+}
+
+
+/* ========================== */
+
+@media (max-width:700px){
+    .why-container{
+        padding:0 2rem;
+    }
+}
