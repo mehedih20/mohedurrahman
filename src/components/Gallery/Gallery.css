@@ -1,0 +1,22 @@
+.section-gallery{
+    padding: 10rem 1.5rem;
+    background-image: linear-gradient(145deg,#000000,#555555 );
+}
+
+.gallery-img{
+    height: 500px;
+    width: auto;
+    overflow: hidden;
+}
+
+.gallery-img img{
+    margin: 0 auto;
+    height: 100%;
+}
+
+@media (max-width:740px){
+    .gallery-img{
+        height: 300px;
+        width: auto;
+    }
+}
