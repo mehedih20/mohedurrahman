@@ -21,7 +21,7 @@ const Gallery = () => {
     slidesToScroll: 1,
   };
   return (
-    <div className="section-gallery">
+    <div className="section-gallery" id="gallery">
       <h2 className="section-title color-white">Gallery</h2>
       <div className="section-container">
         <Slider {...settings}>

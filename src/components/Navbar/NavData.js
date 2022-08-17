@@ -1,9 +1,5 @@
 export const navData = [
   {
-    title: "Home",
-    target: "banner",
-  },
-  {
     title: "About",
     target: "about",
   },
@@ -14,6 +10,10 @@ export const navData = [
   {
     title: "Experience",
     target: "experience",
+  },
+  {
+    title: "Gallery",
+    target: "gallery",
   },
   {
     title: "Why Me?",
