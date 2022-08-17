@@ -23,6 +23,7 @@ const Gallery = () => {
   return (
     <div className="section-gallery" id="gallery">
       <h2 className="section-title color-white">Gallery</h2>
+      <p className="gallery-text color-grey">Some photos during my work</p>
       <div className="section-container">
         <Slider {...settings}>
           {images.map((item, index) => {
